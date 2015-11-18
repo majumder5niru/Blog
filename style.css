@@ -1,0 +1,317 @@
+/*style for post page*/
+/*
+ * Globals
+ */
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #555;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #333;
+}
+
+
+/*
+ * Override Bootstrap's default container.
+ */
+
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
+
+/*
+ * Masthead for nav
+ */
+
+.blog-masthead {
+  background-color: #428bca;
+  box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
+}
+
+/* Nav links */
+.blog-nav-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 500;
+  color: #cdddeb;
+}
+.blog-nav-item:hover,
+.blog-nav-item:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Active state gets a caret at the bottom */
+.blog-nav .active {
+  color: #fff;
+}
+.blog-nav .active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: " ";
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid;
+  border-left: 5px solid transparent;
+}
+
+
+/*
+ * Blog name and description
+ */
+
+.blog-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.blog-title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: normal;
+}
+.blog-description {
+  font-size: 20px;
+  color: #999;
+}
+
+
+
+/*----------------------------------------- Admin ------ */
+.page-title {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: normal;
+  color: #fff;
+}
+.user-log{
+	margin-top: 16px;
+   	color: #fff;
+	font-size: 16px;
+}
+.user-log ul{
+	margin: 0;
+	padding: 0 10px;
+	list-style: none;
+	float: right;
+    border: 1px solid #fff;
+}
+.user-log ul li{
+	display: inline-block;
+	padding: 5px;
+}
+.user-log ul li:hover{
+	color: #eee;
+	cursor: pointer;
+}
+
+
+
+.admin-panel{
+	margin-bottom: 30px;
+	background-color: #fff;
+	margin-bottom: 30px;
+    background-color: #fff;
+}
+.single-category{
+	background-color: #428bca;
+	float: left;
+	width: 100%;    
+	text-align: center;
+    height: 70px;
+    border-bottom: 1px solid #fff;
+	position: relative;
+}
+.single-category:hover,
+.single-category:active{
+	background-color: #fff;
+}
+.single-category p{
+	color: #fff;
+	font-size: 18px;
+	margin-top: 22px;
+}
+.single-category:hover p{
+	color: #000;
+}
+
+.post-actions{
+	background-color: #fff;
+	padding: 15px;
+}
+ul.bs-glyphicons{
+	margin-top: 20px;
+	padding: 0;
+	list-style: none;
+}
+.bs-glyphicons li {
+    font-size: 12px;
+	float: left;
+    width: 40%;
+    height: 90px;
+    padding: 10px;
+	margin-left: 10px;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 1px solid #fff;
+}
+.bs-glyphicons li:hover {
+    color: #fff;
+    background-color: #428bca;
+}
+.glyphicon {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.glyphicon-class {
+    display: block;
+    text-align: center;
+    word-wrap: break-word;
+}
+.admin-foote{
+	margin-top: 30px;
+	
+}
+/*
+ ****************************** Main column and sidebar layout
+ */
+
+.blog-main {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+  padding: 15px;
+  margin: 0 -15px 15px;
+}
+.sidebar-module-inset {
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+
+/* Pagination */
+.pager {
+  margin-bottom: 60px;
+  text-align: left;
+}
+.pager > li > a {
+  width: 140px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+  margin-bottom: 60px;
+}
+.blog-post-title {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+.blog-post-meta {
+  margin-bottom: 20px;
+  color: #999;
+}
+
+
+/*
+ * Footer
+ */
+
+.blog-footer {
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+.admin-footer {
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+	margin-top: 30px;
+}
+.admin-footer p:last-child {
+  margin-bottom: 0;
+}
+
+
+
+/*style for sign in page*/
+body {
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}

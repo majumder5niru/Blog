@@ -1,0 +1,36 @@
+
+
+body {
+	margin-top: 75px;
+}
+
+.login{
+
+	margin-left:30%;
+	margin-bottom:40px;
+}
+
+footer {
+	margin: 10px 0;
+}
+
+#comments, #comments li {
+    margin: 0;
+    padding: 0;
+}
+
+#comments li {
+    list-style: none;
+}
+        
+.photo {
+	margin-bottom: 10px;
+}
+
+.social-buttons button {
+	margin-top: 5px;
+*}*
+select{
+	width: 174px;
+    height: 26px;
+}
