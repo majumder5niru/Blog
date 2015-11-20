@@ -1,4 +1,6 @@
+
 <?php 
+//This page is not used
 session_start();
 //include "blogClass.php";
 ?>
@@ -142,7 +144,7 @@ session_start();
 	<footer>
 		<div class="container">
 			<hr />
-			<p class="text-center">Copyright &copy; 5 Apaches - FTFL03 All rights reserved.</p>
+			<p class="text-center">Copyright &copy; Nirupam.All rights reserved.</p>
 		</div>
 	</footer>
 

@@ -55,7 +55,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a href="index.php" class="navbar-brand">Creative Blog</a>
+				
 			</div>
 			<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
 
@@ -71,7 +71,7 @@
 	<!-- Body -->
 	<div class="container">
 		<h1 align="center">Create Blog</h1>
-		<center><a href="admin.php"><span>Go to Admin Panel</span></a></center>
+		<center><a href="admin.php"><span>See Your Post</span></a></center>
 		<div class="contact-form">
 
 

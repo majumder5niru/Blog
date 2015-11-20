@@ -10,10 +10,10 @@
 	<!-- Bootstrap CSS file -->
 	<link href="css/bootstrap.min.css" rel="stylesheet" />
 	<link href="blog.css" rel="stylesheet" />
-	<noscript>
+	<script>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
-	</noscript>
+	</script>
 
 </head>
 

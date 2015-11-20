@@ -12,7 +12,7 @@
 		setcookie('username','',time()-3600);
 		header("Location: login.php");
 	}
-	echo "Are you sure you you want to log out? "."<br>"."<br>";
+	//echo "Are you sure you you want to log out? "."<br>"."<br>";
 	
 	
 ?>

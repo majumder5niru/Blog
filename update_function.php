@@ -1,4 +1,5 @@
 		<?php
+		//This page is not used
 			class Update{
 				public $conn;
 				public function __construct(){
