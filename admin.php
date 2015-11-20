@@ -43,13 +43,17 @@
 		  	<div class="col-md-8">
 				<h2 class="page-title">Admin Panel</h2>	
 		  	</div>
-			<div class="col-md-4 user-log">
+		  	<div class="col-md-2 user-log">
 				<ul>
-					<li></li>
-					<a href="log_out.php"><li>Log Out</li></a>
-					
+					<a href="index.php"><li>Front Page</li></a>
 				</ul>
 			</div>
+		  	<div class="col-md-2 user-log">
+				<ul>
+					<a href="log_out.php"><li>Log Out</li></a>
+				</ul>
+			</div>
+
 		  </div>
       </div>
     </div>

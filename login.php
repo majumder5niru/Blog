@@ -63,12 +63,12 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a href="indexs.php" class="navbar-brand">Creative Blog</a>
+				<a href="index.php" class="navbar-brand">Creative Blog</a>
 			</div>
 			<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
 			
 				<ul class="nav navbar-nav">
-					<li><a href="indexs.php">Home</a></li>
+					<li><a href="index.php">Home</a></li>
 					<li class="active"><a href="login.php">Members</a></li>
 					<li><a href="about.php">About</a></li>
 				</ul>
@@ -117,7 +117,7 @@
 	<footer>
 		<div class="container">
 			<hr />
-			<p class="text-center">Copyright &copy; 5 Apaches - FTFL03 All rights reserved.</p>
+			<p class="text-center">Copyright &copy; Nirupam Mozumder - All rights reserved.</p>
 		</div>
 	</footer>
 

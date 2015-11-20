@@ -22,19 +22,10 @@
 	<!-- Header -->
 	<header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">			
 		<div class="container">
-			<div class="navbar-header">
-				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a href="indexs.php" class="navbar-brand">Creative Blog</a>
-			</div>
-			<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+				<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
 
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="indexs.php">Home</a></li>
+					<li class="active"><a href="index.php">Home</a></li>
 					
 					<li><a href="about.php">About</a></li>
 				</ul>
@@ -85,7 +76,7 @@
 	<footer>
 		<div class="container">
 			<hr />
-			<p class="text-center">Copyright &copy; 5 Apaches - FTFL03. All rights reserved.</p>
+			<p class="text-center">Copyright &copy; Nirupam Mozumder. All rights reserved.</p>
 		</div>
 	</footer>
 

@@ -16,7 +16,7 @@
 		}
 		else{
 			$userName = $_POST['userName'];
-			$password = str_shuffle($_POST['password']);
+			$password = ($_POST['password']);
 			$email = $_POST['email'];
 			$firstName = $_POST['firstName'];
 			$lastName = $_POST['lastName'];
@@ -94,7 +94,7 @@
 			<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
 
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="indexs.php">Home</a></li>
+					<li class="active"><a href="index.php">Home</a></li>
 					<li><a href="login.php">Members</a></li>
 					<li><a href="about.php">About</a></li>
 				</ul>

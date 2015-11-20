@@ -55,13 +55,13 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a href="indexs.php" class="navbar-brand">Creative Blog</a>
+				<a href="index.php" class="navbar-brand">Creative Blog</a>
 			</div>
 			<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
 
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="indexs.php">Home</a></li>
-					<li><a href="login.php">Members</a></li>
+					<li class="active"><a href="index.php">Home</a></li>
+					<li><a href="login.php">Action</a></li>
 					<li><a href="about.php">About</a></li>
 				</ul>
 			</nav>
@@ -108,12 +108,7 @@
 									</select>
 							</div>
 						</div>
-						<div class="form-group">
-							<label for="name" class="col-md-2">Add Category:</label>
-							<div class="col-md-12">
-								<input type="text" class="form-control" id="category" name ="category" placeholder="Type Your Category(if not presented in the dropdown menu)">
-							</div>
-						</div>
+						
 						<div class="form-group">
 						  <label for="content" class="col-md-2">Content:</label>
 							<div class="col-md-12">
@@ -122,16 +117,9 @@
 						</div>
 						<div class="col-md-1" align="right">
 							<button type="submit" class="btn btn-lg btn-primary" value="submit">Submit</button>
-							
 						</div>
-						
-							
-						
-						
-						
 					</form>
-					
-				</div >
+				</div>
 			</div>	
 		</div>
 	</div>
